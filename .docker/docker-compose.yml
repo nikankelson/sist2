@@ -1,12 +1,12 @@
 version: "3"
 
 services:
-  elasticsearch:
+  elasticsearch_v2:
     image: elasticsearch:7.17.9
     restart: unless-stopped
     volumes:
-      - /data/sist2-es-data/:/usr/share/elasticsearch/data
-      - C:/Users/WindowsBox/Desktop/Kelson Marine/local-gen-search/mydata:/mydata
+      - /data/sist2-es-data-v2/:/usr/share/elasticsearch/data
+      - C:/Users/WindowsBox/Desktop/Kelson Marine/local-gen-search/mydata_v2:/mydata
     environment:
       - "discovery.type=single-node"
       - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
@@ -15,16 +15,16 @@ services:
     entrypoint: >
       sh -c "chown -R 1000:1000 /usr/share/elasticsearch/data && exec /usr/local/bin/docker-entrypoint.sh"
 
-  sist2-admin:
+  sist2-admin_v2:
     image: simon987/sist2:3.4.2-x64-linux
     restart: unless-stopped
     volumes:
-      - /data/sist2-admin-data/:/sist2-admin/
+      - /data/sist2-admin-data-v2/:/sist2-admin/
       - /:/host
-      - C:/Users/WindowsBox/Desktop/Kelson Marine/local-gen-search/mydata:/mydata
+      - C:/Users/WindowsBox/Desktop/Kelson Marine/local-gen-search/mydata_v2:/mydata
     ports:
-      - 4090:4090
-      - 8080:8080
+      - 4092:4090
+      - 8082:8080
     working_dir: /root/sist2-admin/
     entrypoint: python3
     command:
