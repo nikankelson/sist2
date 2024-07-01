@@ -2,11 +2,6 @@
     <div id="app">
         <NavBar></NavBar>
         <b-container class="pt-4">
-            <b-alert show dismissible variant="info">
-                This is a alpha version of sist2-admin. Please submit bug reports, usability issues and feature requests
-                to the <a href="https://github.com/simon987/sist2/issues/new/choose" target="_blank">issue tracker on
-                Github</a>. Thank you!
-            </b-alert>
             <router-view v-if="$store.state.sist2AdminInfo"/>
         </b-container>
     </div>
