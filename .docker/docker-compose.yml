@@ -5,8 +5,7 @@ services:
     image: elasticsearch:7.17.9
     restart: unless-stopped
     volumes:
-      - /data/sist2-es-data/:/usr/share/elasticsearch/data
-      - C:/Users/WindowsBox/Desktop/Kelson Marine/local-gen-search/mydata:/mydata
+      - sist2-es-data:/usr/share/elasticsearch/data
     environment:
       - "discovery.type=single-node"
       - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
@@ -16,12 +15,13 @@ services:
       sh -c "chown -R 1000:1000 /usr/share/elasticsearch/data && exec /usr/local/bin/docker-entrypoint.sh"
 
   sist2-admin:
-    image: simon987/sist2:3.4.2-x64-linux
+    build:
+      context: .
+    container_name: sist2-admin
     restart: unless-stopped
     volumes:
-      - /data/sist2-admin-data/:/sist2-admin/
-      - /:/host
-      - C:/Users/WindowsBox/Desktop/Kelson Marine/local-gen-search/mydata:/mydata
+      - sist2-admin-data:/sist2-admin/
+      - sist2-host:/host
     ports:
       - 4090:4090
       - 8080:8080
@@ -29,3 +29,8 @@ services:
     entrypoint: python3
     command:
       - /root/sist2-admin/sist2_admin/app.py
+
+volumes:
+  sist2-admin-data:
+  sist2-es-data:
+  sist2-host:
