@@ -20,8 +20,15 @@ services:
     container_name: sist2-admin
     restart: unless-stopped
     volumes:
-      - sist2-admin-data:/sist2-admin/
+      - ./scripts:/build/scripts
+      - ./schema:/build/schema
+      - ./CMakeLists.txt:/build/CMakeLists.txt
+      - ./third-party:/build/third-party
+      - ./src:/build/src
+      - ./sist2-vue:/build/sist2-vue
+      - ./sist2-admin:/build/sist2-admin
       - sist2-host:/host
+      - ./third-party/libscan/libscan-test-files/test_files/ebook:/testData
     ports:
       - 4090:4090
       - 8080:8080
