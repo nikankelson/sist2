@@ -3,27 +3,25 @@ version: "3"
 services:
   elasticsearch:
     image: elasticsearch:7.17.9
-    restart: unless-stopped
+    container_name: sist2-es
     volumes:
+      # This directory must have 1000:1000 permissions (or update PUID & PGID below)
       - /data/sist2-es-data/:/usr/share/elasticsearch/data
-      - C:/Users/WindowsBox/Desktop/Kelson Marine/local-gen-search/mydata:/mydata
     environment:
       - "discovery.type=single-node"
       - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
       - "PUID=1000"
       - "PGID=1000"
-    entrypoint: >
-      sh -c "chown -R 1000:1000 /usr/share/elasticsearch/data && exec /usr/local/bin/docker-entrypoint.sh"
-
   sist2-admin:
-    image: simon987/sist2:3.4.2-x64-linux
-    restart: unless-stopped
+    build:
+      context: .
+    container_name: sist2-admin
     volumes:
       - /data/sist2-admin-data/:/sist2-admin/
       - /:/host
-      - C:/Users/WindowsBox/Desktop/Kelson Marine/local-gen-search/mydata:/mydata
     ports:
       - 4090:4090
+      # NOTE: Don't export this port publicly!
       - 8080:8080
     working_dir: /root/sist2-admin/
     entrypoint: python3
