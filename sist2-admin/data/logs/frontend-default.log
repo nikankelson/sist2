@@ -676,3 +676,320 @@
 {"stderr": "T0 [2024-08-07 15:22:44] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
 {"stderr": "T0 [2024-08-07 15:22:45] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
 {"stderr": "T0 [2024-08-07 15:22:45] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg es_url=http://elasticsearch:9200\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg es_index=sist2\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg es_insecure_ssl=0\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg search_index_path=(null)\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg search_backend=0\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg tagline=Search the seas!\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg dev=0\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg listen=0.0.0.0:4090\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg credentials=KelsonMarine:Password\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg tag_credentials=(null)\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg auth_user=KelsonMarine\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg auth_pass=Password\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg index_count=1\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG cli.c] arg indices[0]=/sist2-admin/scan-ebooks-2024-08-07 14:50:52.783996.sist2\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [DEBUG database.c] Opening database /sist2-admin/scan-ebooks-2024-08-07 14:50:52.783996.sist2 (0)\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [INFO main.c] Loaded index: [ebooks]\n"}
+{"stderr": "T0 [2024-08-07 15:29:22] [INFO serve.c] Starting web server @ http://0.0.0.0:4090\n"}
+{"stderr": "T0 [2024-08-07 15:29:24] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:24] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:24] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:24] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:25] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:25] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 189 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 13 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 13 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:26] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:27] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:27] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:27] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:27] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:27] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:27] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:27] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 6 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 14 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 11 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:28] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 1 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 26 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 26 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 1 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 21 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 21 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:29] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:30] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:30] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:30] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:30] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:30] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 3 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 21 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 21 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:31] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:32] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:32] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:32] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:32] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:32] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 1 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 12 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 12 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:33] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 2 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 12 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 11 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:34] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 1 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 11 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 11 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:38] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 1 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 11 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [ERROR web.c] CURL Error: Failed to connect to elasticsearch port 9200 after 11 ms: Couldn't connect to server\n"}
+{"stderr": "T0 [2024-08-07 15:29:40] [ERROR serve.c] Could not connect to elasticsearch! \n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg es_url=http://elasticsearch:9200\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg es_index=sist2\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg es_insecure_ssl=0\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg search_index_path=(null)\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg search_backend=0\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg tagline=Search the seas!\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg dev=0\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg listen=0.0.0.0:4090\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg credentials=KelsonMarine:Password\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg tag_credentials=(null)\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg auth_user=KelsonMarine\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg auth_pass=Password\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg index_count=1\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG cli.c] arg indices[0]=/sist2-admin/scan-ebooks-2024-08-07 14:50:52.783996.sist2\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [DEBUG database.c] Opening database /sist2-admin/scan-ebooks-2024-08-07 14:50:52.783996.sist2 (0)\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [INFO main.c] Loaded index: [ebooks]\n"}
+{"stderr": "T0 [2024-08-07 15:29:43] [INFO serve.c] Starting web server @ http://0.0.0.0:4090\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:44] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:45] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:45] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:45] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:45] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:45] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:45] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:47] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:29:47] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:29:59] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:29:59] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:59] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:29:59] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:29:59] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /favicon.ico\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.00000001\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.00000003\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.00000004\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.00000005\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.00000006\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.00000007\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.00000008\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.00000009\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.0000000a\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.0000000b\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.0000000c\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.0000000d\n"}
+{"stderr": "T0 [2024-08-07 15:30:00] [DEBUG serve.c] <172.18.0.1> GET /t/66b389cc.0000000f\n"}
+{"stderr": "T0 [2024-08-07 15:30:03] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:30:03] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:32:22] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:32:22] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:36:18] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:36:18] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg es_url=http://elasticsearch:9200\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg es_index=sist2\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg es_insecure_ssl=0\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg search_index_path=(null)\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg search_backend=0\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg tagline=Search the seas!\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg dev=0\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg listen=0.0.0.0:4090\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg credentials=KelsonMarine:Password\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg tag_credentials=(null)\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg auth_user=KelsonMarine\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg auth_pass=Password\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg index_count=1\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG cli.c] arg indices[0]=/sist2-admin/scan-ebooks-2024-08-07 14:50:52.783996.sist2\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [DEBUG database.c] Opening database /sist2-admin/scan-ebooks-2024-08-07 14:50:52.783996.sist2 (0)\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [INFO main.c] Loaded index: [ebooks]\n"}
+{"stderr": "T0 [2024-08-07 15:41:16] [INFO serve.c] Starting web server @ http://0.0.0.0:4090\n"}
+{"stderr": "T0 [2024-08-07 15:57:32] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 15:57:32] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 15:57:32] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 15:57:32] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 15:57:32] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 15:57:32] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG serve.c] <172.18.0.1> GET /favicon.ico\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:57:33] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 15:57:35] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 15:57:35] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg es_url=http://elasticsearch:9200\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg es_index=sist2\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg es_insecure_ssl=0\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg search_index_path=(null)\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg search_backend=0\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg tagline=Search the seas!\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg dev=0\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg listen=0.0.0.0:4090\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg credentials=KelsonMarine:Password\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg tag_credentials=(null)\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg auth_user=KelsonMarine\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg auth_pass=Password\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg index_count=1\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG cli.c] arg indices[0]=/sist2-admin/scan-ebooks-2024-08-07 14:50:52.783996.sist2\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [DEBUG database.c] Opening database /sist2-admin/scan-ebooks-2024-08-07 14:50:52.783996.sist2 (0)\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [INFO main.c] Loaded index: [ebooks]\n"}
+{"stderr": "T0 [2024-08-07 16:41:12] [INFO serve.c] Starting web server @ http://0.0.0.0:4090\n"}
+{"stderr": "T0 [2024-08-07 16:47:27] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:27] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:50] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:51] [DEBUG serve.c] <172.18.0.1> GET /favicon.ico\n"}
+{"stderr": "T0 [2024-08-07 16:47:51] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:51] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:51] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:51] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:51] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:51] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:54] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:54] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /js/chunk-vendors.js\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /js/index.js\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /css/chunk-vendors.css\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /css/index.css\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /i\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:57] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:58] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:58] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:47:59] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:47:59] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}
+{"stderr": "T0 [2024-08-07 16:48:01] [DEBUG serve.c] <172.18.0.1> GET /es\n"}
+{"stderr": "T0 [2024-08-07 16:48:01] [DEBUG web.c] async request POST http://elasticsearch:9200/sist2/_search\n"}

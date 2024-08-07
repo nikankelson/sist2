@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <div
     class="thumbnail_count-progress-bar"
     :style="{ width: `${percentProgress}%` }"
@@ -37,4 +37,4 @@ export default {
   max-width: calc(100% - 8px);
   left: 4px;
 }
-</style> -->
+</style>
