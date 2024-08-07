@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <b-container>
 
         <template>
@@ -70,4 +70,4 @@ export default {
     text-align: center;
     padding: 1em;
 }
-</style>
+</style> -->

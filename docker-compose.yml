@@ -20,15 +20,12 @@ services:
     container_name: sist2-admin
     restart: unless-stopped
     volumes:
-      - ./scripts:/build/scripts
-      - ./schema:/build/schema
-      - ./CMakeLists.txt:/build/CMakeLists.txt
-      - ./third-party:/build/third-party
-      - ./src:/build/src
+      - ./sist2-admin/data:/sist2-admin/
       - ./sist2-vue:/build/sist2-vue
       - ./sist2-admin:/build/sist2-admin
       - sist2-host:/host
-      - ./third-party/libscan/libscan-test-files/test_files/ebook:/testData
+      - ./third-party/libscan/libscan-test-files/test_files/ebook:/testData/ebooks
+      - ./third-party/mytestdata:/testData/images
     ports:
       - 4090:4090
       - 8080:8080
@@ -36,7 +33,6 @@ services:
     entrypoint: python3
     command:
       - /root/sist2-admin/sist2_admin/app.py
-
 volumes:
   sist2-admin-data:
   sist2-es-data:

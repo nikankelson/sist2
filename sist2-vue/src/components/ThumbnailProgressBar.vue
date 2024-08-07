@@ -1,5 +1,8 @@
-<template>
-  <div class="thumbnail_count-progress-bar" :style="{width: `${percentProgress}%`}"></div>
+<!-- <template>
+  <div
+    class="thumbnail_count-progress-bar"
+    :style="{ width: `${percentProgress}%` }"
+  ></div>
 </template>
 
 <script>
@@ -9,20 +12,19 @@ export default {
   computed: {
     percentProgress() {
       return Math.min(Math.max(this.progress * 100, 0), 100);
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
-
 .thumbnail_count-progress-bar {
   position: absolute;
   left: 0;
   bottom: 0;
 
   height: 4px;
-  background: #2196f3AA;
+  background: #2196f3aa;
 
   z-index: 9;
 }
@@ -35,6 +37,4 @@ export default {
   max-width: calc(100% - 8px);
   left: 4px;
 }
-
-
-</style>
+</style> -->

@@ -47,3 +47,4 @@ src/index/static_generated.c
 *-journal
 .vscode
 *.fts
+third-party/mytestdata

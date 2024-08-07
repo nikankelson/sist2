@@ -11,6 +11,7 @@ COPY src src
 COPY sist2-vue sist2-vue
 COPY sist2-admin sist2-admin
 
+
 RUN cd sist2-vue/ && npm install && npm run build
 RUN cd sist2-admin/frontend/ && npm install && npm run build
 
@@ -51,3 +52,4 @@ COPY sist2-admin/requirements.txt /root/sist2-admin/
 RUN ln /usr/bin/python3 /usr/bin/python
 RUN python -m pip install --no-cache -r /root/sist2-admin/requirements.txt
 COPY --from=build /build/sist2-admin/ /root/sist2-admin/
+

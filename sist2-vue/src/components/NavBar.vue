@@ -7,17 +7,38 @@
       <Sist2Icon></Sist2Icon>
     </b-navbar-brand>
 
-    <span class="badge badge-pill version" v-if="$store && $store.state.sist2Info">
-      v{{ sist2Version() }}<span v-if="isDebug()">-dbg</span><span v-if="isLegacy() && !hideLegacy()">-<a
-        href="https://github.com/simon987/sist2/blob/master/docs/USAGE.md#elasticsearch"
-        target="_blank">legacyES</a></span><span v-if="$store.state.uiSqliteMode">-SQLite</span>
+    <span
+      class="badge badge-pill version"
+      v-if="$store && $store.state.sist2Info"
+    >
+      v{{ sist2Version() }}<span v-if="isDebug()">-dbg</span
+      ><span v-if="isLegacy() && !hideLegacy()"
+        >-<a
+          href="https://github.com/simon987/sist2/blob/master/docs/USAGE.md#elasticsearch"
+          target="_blank"
+          >legacyES</a
+        ></span
+      ><span v-if="$store.state.uiSqliteMode">-SQLite</span>
     </span>
 
-    <span v-if="$store && $store.state.sist2Info" class="tagline" v-html="tagline()"></span>
+    <span
+      v-if="$store && $store.state.sist2Info"
+      class="tagline"
+      v-html="tagline()"
+    ></span>
 
-    <b-button class="ml-auto" to="stats" variant="link">{{ $t("stats") }}</b-button>
-    <b-button to="config" variant="link">{{ $t("config") }}</b-button>
-    <b-button v-if="$auth && $auth.isAuthenticated" variant="link" @click="onLogoutClick()">logout</b-button>
+    <!-- <b-button class="ml-auto" to="stats" variant="link">{{
+      $t("stats")
+    }}</b-button> -->
+    <b-button class="ml-auto" to="config" variant="link">{{
+      $t("config")
+    }}</b-button>
+    <b-button
+      v-if="$auth && $auth.isAuthenticated"
+      variant="link"
+      @click="onLogoutClick()"
+      >logout</b-button
+    >
   </b-navbar>
 </template>
 
@@ -26,7 +47,7 @@ import Sist2Icon from "@/components/icons/Sist2Icon";
 
 export default {
   name: "NavBar",
-  components: {Sist2Icon},
+  components: { Sist2Icon },
   methods: {
     tagline() {
       return this.$store.state.sist2Info.tagline;
@@ -45,14 +66,14 @@ export default {
     },
     onLogoutClick() {
       this.$auth.logout();
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
 .navbar {
-  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 2%) !important;
   border-radius: 0;
 }
 
@@ -89,7 +110,8 @@ export default {
   color: #f5f5f5 !important;
 }
 
-.theme-black a:hover, .theme-black .btn:hover {
+.theme-black a:hover,
+.theme-black .btn:hover {
   color: #fff;
 }
 
