@@ -1,6 +1,6 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../views/Home.vue";
 import Job from "@/views/Job";
 import Tasks from "@/views/Tasks";
 import Frontend from "@/views/Frontend";
@@ -14,44 +14,44 @@ const routes = [
   {
     path: "/task",
     name: "Tasks",
-    component: Tasks
+    component: Tasks,
   },
   {
     path: "/:tab?",
     name: "Home",
-    component: Home
+    component: Home,
   },
   {
     path: "/job/:name",
     name: "Job",
-    component: Job
+    component: Job,
   },
   {
     path: "/frontend/:name",
     name: "Frontend",
-    component: Frontend
+    component: Frontend,
   },
   {
     path: "/searchBackend/:name",
     name: "SearchBackend",
-    component: SearchBackend
+    component: SearchBackend,
   },
   {
     path: "/userScript/:name",
     name: "UserScript",
-    component: UserScript
+    component: UserScript,
   },
   {
     path: "/log/:taskId",
     name: "Tail",
-    component: Tail
+    component: Tail,
   },
-]
+];
 
 const router = new VueRouter({
   mode: "hash",
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

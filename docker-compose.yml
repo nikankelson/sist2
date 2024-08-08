@@ -24,8 +24,10 @@ services:
       - ./sist2-vue:/build/sist2-vue
       - ./sist2-admin:/build/sist2-admin
       - sist2-host:/host
-      - ./third-party/libscan/libscan-test-files/test_files/ebook:/testData/ebooks
-      - ./third-party/mytestdata:/testData/images
+
+      #data to be used
+      - ./third-party/mytestdata:/testData
+
     ports:
       - 4090:4090
       - 8080:8080

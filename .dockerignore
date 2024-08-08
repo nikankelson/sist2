@@ -41,3 +41,4 @@ sist2-admin/frontend/dist
 *.fts
 .git
 third-party/libscan/third-party/ext_*/*
+third-party/mytestdata
